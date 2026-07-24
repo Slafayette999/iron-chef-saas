@@ -21,8 +21,26 @@ The original concept was later developed into a Java desktop prototype. The proj
 ## Current Status
 
 🚧 **Active Development**
+Iron Chef is currently under active development.
 
-The project is currently in the prototyping and architecture phase. Multiple development approaches are being evaluated while the database structure, user workflows, and Version 1 MVP are finalized.
+### Completed
+- Supabase authentication
+- Multi-tenant restaurant membership model
+- PostgreSQL inventory schema
+- Row Level Security policies
+- Live inventory dashboard
+- Ingredient creation with opening inventory
+- Expiration monitoring
+- Manager-approved expired inventory discard workflow
+
+### In Progress
+- Multi-batch inventory receiving
+- Inventory quantity management
+- FIFO inventory behavior
+
+### Next
+- Recipe/special generation using live inventory
+- Pilot testing with a real restaurant
 
 ## Version 1 Goals
 
